@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f1f1f1;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header img {
+	height: 80px;
+}
+
+main {
+	margin: 50px auto;
+	max-width: 400px;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 0px 10px #aaa;
+	border-radius: 5px;
+}
+
+.logo {
+	background-color: #c8c8c8;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+.logo h1 {
+	margin: 0;
+	font-size: 36px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  /* .column {
+    padding: 0 16px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    margin-bottom: 20px;
+  } */
+  
+  .column-id {
+    flex: 2;
+  }
+  
+  .column-articulo {
+    flex: 6;
+  }
+  
+  .column-cantidad {
+    flex: 2;
+  }
+  .column-precio{
+    flex: 2;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .row {
+    display: contents;
+  }
+  
+  .header {
+    font-weight: bold;
+  }
+  
+  .column {
+    text-align: center;
+  }
+  

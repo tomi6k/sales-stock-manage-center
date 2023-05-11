@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Home - SSMC</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f1f1f1;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		header img {
+			height: 80px;
+		}
+
+		main {
+			margin: 50px auto;
+			max-width: 400px;
+			background-color: #fff;
+			padding: 20px;
+			box-shadow: 0px 0px 10px #aaa;
+			border-radius: 5px;
+		}
+
+		.btn {
+			display: block;
+			width: 90%;
+			padding: 20px;
+			margin-bottom: 20px;
+			background-color: #333;
+			color: #fff;
+			font-size: 24px;
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+			text-decoration: none;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+
+		.btn:hover {
+			background-color: #444;
+		}
+	</style>
+    
+</head>
+<body>
+        <header>
+        
+                <div class="logo">
+                  <h1>SSMC</h1>
+                  <style> 
+                 nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 5px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    nav a:hover {
+      background-color: #fff;
+      color: #444;
+    } 
+                  </style>
+                      <nav>
+          <ul>
+            <li><a href="home.html">INICIO</a></li>
+            <li><a href="add_prod.php">AGREGAR PRODUCTOS</a></li>
+            <li><a href="list_prod.php">LISTA DE PRODUCTOS</a></li>
+          </ul>
+        </nav>
+                </div>
+    
+        </header>
+	<main>
+		<a href="ventas.php" class="btn">Venta</a>
+		<a href="list_prod.php" class="btn">Lista de Productos</a>
+		<a href="add_prod.php" class="btn">Agregar un Producto</a>
+		<a href="#" class="btn">Historial de Ventas</a>
+	</main>
+</body>
+</html>
