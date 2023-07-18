@@ -44,6 +44,10 @@ if(isset($_GET['status'])) {
 		<input type="number" id="cantidad" name="cantidad" required>
 	</div>
 	<div class="form-group">
+		<label for="precio">Precio:</label>
+		<input type="text" id="nompreciobre" name="precio" required>
+	</div>
+	<div class="form-group">
 		<label for="stock-minimo">Stock Mínimo:</label>
 		<input type="number" id="stock-minimo" name="stock-minimo" required>
 	</div>

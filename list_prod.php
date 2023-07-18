@@ -85,7 +85,7 @@ nav a:hover {
         echo '<p>' . $row['cant_prod'] . '</p>';
         echo '</div>';
         echo '<div class="column">';
-        echo '<p>' . $row['precio_prod'] . '</p>';
+        echo '<p>$' . $row['precio_prod'] . '</p>';
         echo '</div>';
         echo '</div>';
     }
